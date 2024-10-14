@@ -15,6 +15,7 @@ import meiliClient from '../../../shared/meilisearch';
 const index = meiliClient.index('doctors');
 
 const createDoctor = async (req: Request) => {
+  // console.log(req.body);
   const file = req.file as IUploadFile;
 
   if (file) {
@@ -22,6 +23,8 @@ const createDoctor = async (req: Request) => {
       await FileUploadHelper.uploadToCloudinary(file);
     req.body.doctor.profilePhoto = uploadedProfileImage?.secure_url;
   }
+
+  console.log(req.body);
 
   const hashPassword = await hashedPassword(req.body.password);
   const result = await prisma.$transaction(async transactionClient => {
@@ -38,7 +41,7 @@ const createDoctor = async (req: Request) => {
     });
 
     const { id, email, name, contactNumber, address } = newDoctor;
-    await index.addDocuments([{ id, email, name, contactNumber, address }]);
+    // await index.addDocuments([{ id, email, name, contactNumber, address }]);
 
     return newDoctor;
   });
