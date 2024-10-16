@@ -3,7 +3,6 @@ import app from './app';
 import config from './config';
 import { errorlogger, logger } from './shared/logger';
 
-
 async function bootstrap() {
   const server: Server = app.listen(config.port, () => {
     logger.info(`Server running on port ${config.port}`);
@@ -17,7 +16,7 @@ async function bootstrap() {
     }
     process.exit(1);
   };
-
+  // this is unexpectedErrorHandler
   const unexpectedErrorHandler = (error: unknown) => {
     errorlogger.error(error);
     exitHandler();
