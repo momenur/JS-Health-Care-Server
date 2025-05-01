@@ -27,6 +27,12 @@ app.use(express.urlencoded({ extended: true }));
 
 // app.use('/api/v1', routes);
 
+app.get('/', async (req: Request, res: Response) => {
+  res.status(200).json({
+    message: 'Server working....!',
+  });
+});
+
 app.get('/test', async (req: Request, res: Response) => {
   res.status(200).json({
     message: 'Server working....!',
