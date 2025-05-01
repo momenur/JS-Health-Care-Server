@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1', routes);
+// app.use('/api/v1', routes);
 
 app.get('/test', async (req: Request, res: Response) => {
   res.status(200).json({
@@ -34,13 +34,13 @@ app.get('/test', async (req: Request, res: Response) => {
 });
 
 // Schedule to run every minute
-cron.schedule('* * * * *', async (): Promise<void> => {
-  try {
-    await AppointmentServices.cancelUnpaidAppointments();
-  } catch (error) {
-    errorlogger.error(error);
-  }
-});
+// cron.schedule('* * * * *', async (): Promise<void> => {
+//   try {
+//     await AppointmentServices.cancelUnpaidAppointments();
+//   } catch (error) {
+//     errorlogger.error(error);
+//   }
+// });
 
 //global error handler
 app.use(globalErrorHandler);
