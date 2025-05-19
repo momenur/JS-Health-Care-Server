@@ -6,54 +6,9 @@
     "auditLog": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\.b6e13f45fdf5d30ce4bf5e78072ff58c5ea386a4-audit.json",
     "files": [
         {
-            "date": 1734547033456,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-19-12-00-error.log",
-            "hash": "47a7ce52801614c0f8467eba72a9533dd47a37bcc43163387622a31c90ae08bb"
-        },
-        {
-            "date": 1734634163819,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-20-12-00-error.log",
-            "hash": "a9772200c0d17eba65d84127daceaf749b2556d650d3d480b636e2dc5b91e71e"
-        },
-        {
-            "date": 1734778749970,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-21-12-16-error.log",
-            "hash": "a21a54141c3e28b8fd9d19f23aaa73859863e1904da02dca11ea87fc52e9f25f"
-        },
-        {
-            "date": 1734780703069,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-21-12-17-error.log",
-            "hash": "e072548c53c1f7bb46c83f799098d33c8e82315bde7e49881bfcaa006e34a328"
-        },
-        {
-            "date": 1734881101381,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-22-12-21-error.log",
-            "hash": "3d5d6baa03b2b7431a4e3c9b45e81f2413d7c41b387c0545255d951078742dd1"
-        },
-        {
-            "date": 1734975551320,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-23-12-23-error.log",
-            "hash": "7c3cb6f2a4150e79714b3c4574e3b2d9a498125edcab286337f692bb4cde6c03"
-        },
-        {
-            "date": 1735113852714,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-25-12-14-error.log",
-            "hash": "fb18dc943c70c650baf34d7c07db09e3f9fefd432c2536cef2c793991d4d844a"
-        },
-        {
-            "date": 1735383322795,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-28-12-16-error.log",
-            "hash": "b57342a6545a9814de99c417cd781f0a46270b48b58cd43bc5e62f8ce0c3a755"
-        },
-        {
-            "date": 1735662108762,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2024-31-12-22-error.log",
-            "hash": "241effd63b74030be024d8008f506a350ec06dd475203a128ad81fad1e780d28"
-        },
-        {
-            "date": 1735748023980,
-            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2025-01-01-22-error.log",
-            "hash": "a1afb62c0e433c75e4f40dc38485f20070c258b254fa98968366e5149c51e407"
+            "date": 1747676533274,
+            "name": "G:\\Complete Project\\JS Doctor\\HealthCare-Server\\logs\\winston\\errors\\phu-2025-19-05-23-error.log",
+            "hash": "2a67c1cd34107c67f12ac0586c42a5e25c46a020a1cf193ec82e49213d0a50a4"
         }
     ],
     "hashType": "sha256"
